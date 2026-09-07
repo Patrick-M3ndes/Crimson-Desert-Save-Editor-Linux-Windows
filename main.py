@@ -41,9 +41,12 @@ STEAM_DEFAULT_SAVE_DIR = os.path.expanduser(
 )
 
 CURRENCY_KEYS = {
-    "Item_Money": "Dinheiro (Gold)",
-    "Item_CampFunds": "Fundos do Acampamento",
-    "Item_CampPoint": "Pontos do Acampamento",
+    1: "Copper (Dinheiro)",
+    11: "Camp Funds (Fundos do Acampamento)",
+    12: "Camp Food (Comida do Acampamento)",
+    13: "Camp Timber (Madeira do Acampamento)",
+    14: "Camp Stone (Pedra do Acampamento)",
+    15: "Camp Weapons (Armas do Acampamento)",
 }
 # ==============================================================================
 
